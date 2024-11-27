@@ -14,17 +14,16 @@ body {
 
 .top{
   position: fixed;
-  top: -490px;
-  left: -270px;
+  top: -515px;
+  left: -235px;
   z-index: 0;
   display: flex;
   justify-content: center;
 }
 .bottom {
-  height: 320px;
   position: fixed;
-  bottom: 30px;
-  right: -125px;
+  bottom: -620px;
+  right: -140px;
   display: flex;
   z-index: 0;
 }
@@ -68,7 +67,6 @@ body {
   height: 50px;
   display: grid;
   grid-column: auto auto auto;
-  grid-column-gap: -40px;
   grid-row: auto auto;
   grid-template-areas: "one two three" "four five six";
   position: absolute;
@@ -133,8 +131,6 @@ img {
 }
 
 @media screen and (min-width:300px) and (max-width:700px){
-
-
 .attribution{
   display: flex;
   text-wrap: wrap;
