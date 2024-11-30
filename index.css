@@ -17,13 +17,13 @@ body {
   .top{
     position: fixed;
     top: -515px;
-    left: -235px;
+    left: -280px;
     z-index: 0;
   }
   .bottom {
     position: fixed;
-    bottom: -640px;
-    right: -140px;
+    bottom: -530px;
+    right: -270px;
     z-index: 0;
   }
   .box {
@@ -67,7 +67,7 @@ body {
     grid-template-areas: "one two three" "four five six";
     position: relative;
     bottom: 15px;
-    left: 30px;
+    left: 27px;
     
    
   }
@@ -109,7 +109,8 @@ body {
   .one,
   .two,
   .three {
-    font-weight: 700;
+    font-weight: 600;
+    letter-spacing: 1px;
   }
   .four,
   .five,
