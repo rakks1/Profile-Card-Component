@@ -22,8 +22,8 @@ body {
   }
   .bottom {
     position: fixed;
-    bottom: -530px;
-    right: -270px;
+    bottom: -620px;
+    right: -250px;
     z-index: 0;
   }
   .box {
